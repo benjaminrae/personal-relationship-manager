@@ -1,15 +1,17 @@
 {
-  "name": "personal-relationship-manager",
-  "version": "1.0.0",
-  "description": "",
-  "workspaces": [],
-  "scripts": {
-    "start": "npm run start --worspaces --if-present",
-    "build": "npm run build --worspaces --if-present",
-    "test": "npm run test --worspaces --if-present",
-    "lint": "npm run lint --worspaces --if-present"
-  },
-  "keywords": [],
-  "author": "Benjamin Rae",
-  "license": "ISC"
+    "name": "personal-relationship-manager",
+    "version": "1.0.0",
+    "description": "",
+    "workspaces": [
+        "packages/relationship-manager-service"
+    ],
+    "scripts": {
+        "start": "npm run start --worspaces --if-present",
+        "build": "npm run build --worspaces --if-present",
+        "test": "npm run test --worspaces --if-present",
+        "lint": "npm run lint --worspaces --if-present"
+    },
+    "keywords": [],
+    "author": "Benjamin Rae",
+    "license": "ISC"
 }
